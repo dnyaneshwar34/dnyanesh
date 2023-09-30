@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[test startedverifyamazonhom]]>
+    </line>
+    <line>
+      <![CDATA[test successverifyamazonhom]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-09-30T18:57:25 IST" name="Suite" finished-at="2023-09-30T18:58:03 IST" duration-ms="38773">
+    <groups>
+    </groups>
+    <test started-at="2023-09-30T18:57:25 IST" name="Test" finished-at="2023-09-30T18:58:03 IST" duration-ms="38773">
+      <class name="amazontest.Amazooon">
+        <test-method is-config="true" signature="teststart(java.lang.String)[pri:0, instance:amazontest.Amazooon@15ff3e9e]" started-at="2023-09-30T18:57:25 IST" name="teststart" finished-at="2023-09-30T18:57:31 IST" duration-ms="6384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teststart -->
+        <test-method signature="verifyamazonhom()[pri:0, instance:amazontest.Amazooon@15ff3e9e]" started-at="2023-09-30T18:57:31 IST" name="verifyamazonhom" finished-at="2023-09-30T18:58:03 IST" duration-ms="32218" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test startedverifyamazonhom]]>
+            </line>
+            <line>
+              <![CDATA[test successverifyamazonhom]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyamazonhom -->
+        <test-method is-config="true" signature="stop()[pri:0, instance:amazontest.Amazooon@15ff3e9e]" started-at="2023-09-30T18:58:03 IST" name="stop" finished-at="2023-09-30T18:58:03 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+      </class> <!-- amazontest.Amazooon -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
