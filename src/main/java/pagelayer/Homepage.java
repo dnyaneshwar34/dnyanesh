@@ -114,6 +114,7 @@ public class Homepage extends Testbase {
 	   
 	   if(expectedtext.equals("Actual")) {
 		   System.out.println(Actual+"true");
+		   System.out.println("all ok");
 	   }
 	   
 	   
